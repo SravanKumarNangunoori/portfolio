@@ -1,0 +1,16 @@
+.dev-icons {
+    font-size: 5rem;
+  }
+
+  .fab{
+    color: #BD5D38;
+  }
+  .fab:hover {
+    color: black;
+  }
+
+  @media (max-width: 992px){
+    .dev-icons {
+        font-size: 3rem;
+      }
+  }

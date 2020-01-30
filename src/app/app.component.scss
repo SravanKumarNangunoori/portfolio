@@ -1,0 +1,68 @@
+@import '~@angular/material/theming';
+$app-primary: mat-palette($mat-red);
+$app-accent:  mat-palette($mat-light-blue);
+$app-warn:    mat-palette($mat-pink);
+
+// Create your Sass color vars (will be available in all the project)
+$primary: #BD5D38;
+$accent: mat-color($app-accent);
+$warn: mat-color($app-warn);
+:host {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 14px;
+    // color: #333;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  .profileImage{
+      width: 80%;
+      height:200px;
+      border: 4px solid #eca29d;
+      border-radius: 100px;
+  }
+
+  .example-container {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #ffffff;
+  }
+  
+  .example-is-mobile .example-toolbar {
+    position: fixed;
+    z-index: 2;
+  }
+  
+  h1.example-app-name {
+    margin-left: 8px;
+  }
+  
+  .example-sidenav-container {
+    flex: 1;
+  }
+  
+  .example-is-mobile .example-sidenav-container {
+    flex: 1 0 auto;
+  }
+  
+  .sidenavContent{
+      background: #ffffff;
+  }
+  .bg-primary {
+    background-color: #BD5D38 !important;
+  }
+
+  .routingPage{
+    margin-left: 17rem;
+    @media (max-width: 992px){
+
+      margin-left: 1rem;
+      padding-top:60px;
+    }
+  }
