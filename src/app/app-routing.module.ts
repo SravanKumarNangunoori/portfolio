@@ -12,7 +12,10 @@ const routes: Routes = [
   { path: 'experience', component: ExperienceComponent, data: {animation: 'Experience'} },
   { path: 'skills', component: SkillsComponent, data: {animation: 'Skills'} },
   { path:'projects',component:ProjectsComponent, data: {animation: 'Projects'}},
-  { path:'education',component:EducationComponent, data: {animation: 'Education'}}
+  { path:'education',component:EducationComponent, data: {animation: 'Education'}},
+  {path:'*',component:AboutComponent,data: {animation: 'About'}
+
+  }
 ];
 
 @NgModule({
