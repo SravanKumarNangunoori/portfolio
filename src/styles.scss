@@ -55,7 +55,7 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
   }
   
   section.resume-section {
-    padding-top: 10rem !important;
+    // padding-top: 10rem !important;
     padding-bottom: 8rem !important;
     max-width: 75rem;
     margin: auto;
@@ -65,11 +65,11 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
     min-width: none;
   }
   .text-primary {
-    color: #BD5D38 !important;
+    color: #337ab7 !important;
   }
   
   a {
-    color: #BD5D38;
+    color: #6A9DFD;
   }
   
   a:hover, a:focus, a:active {
@@ -84,3 +84,15 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
         margin: auto;
       }
   }
+  body{
+    background-image: url('https://images.unsplash.com/photo-1484417894907-623942c8ee29?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80');
+        background-repeat: no-repeat;
+  background-size: 100%;
+  }
+
+  .layer {
+    background-color: rgba(255, 255, 255, 0.9);
+    
+    width: 100%;
+    height: 100%;
+}

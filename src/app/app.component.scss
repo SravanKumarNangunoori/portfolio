@@ -4,7 +4,7 @@ $app-accent:  mat-palette($mat-light-blue);
 $app-warn:    mat-palette($mat-pink);
 
 // Create your Sass color vars (will be available in all the project)
-$primary: #BD5D38;
+$primary: #6A9DFD;
 $accent: mat-color($app-accent);
 $warn: mat-color($app-warn);
 :host {
@@ -55,7 +55,7 @@ $warn: mat-color($app-warn);
       background: #ffffff;
   }
   .bg-primary {
-    background-color: #BD5D38 !important;
+    background-color: #6A9DFD !important;
   }
 
   .routingPage{
