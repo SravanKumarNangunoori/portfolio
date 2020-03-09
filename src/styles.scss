@@ -31,8 +31,9 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
       padding: 0.5rem;
     }
     #sideNav .navbar-brand .img-profile {
-      max-width: 10rem;
-      max-height: 10rem;
+      max-width: 15rem;
+      max-height: 15rem;
+      border-radius: 4rem;
       border: 0.5rem solid rgba(255, 255, 255, 0.2);
     }
     #sideNav .navbar-collapse {
@@ -82,6 +83,9 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
         padding-bottom: 3rem !important;
         max-width: 75rem;
         margin: auto;
+      }
+      .img-profile{
+        display: none;
       }
   }
   body{
